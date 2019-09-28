@@ -7,3 +7,6 @@ class segment_node:
 
 
 N1 = segment_node(None , None , None , 'A')
+
+
+ 
