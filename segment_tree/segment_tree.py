@@ -20,6 +20,15 @@ class segment_node:
         except:
             pass
 
+class segment_tree:
+	def __init__(self, head_node=None, tree_size=0):
+		self.head_node = head_node
+		self.tree_size = tree_size
+	
+	def return_size(self):
+		return self.return_size
+
+
 N1 = segment_node(None , None , None , 'A', 0)
 
 
