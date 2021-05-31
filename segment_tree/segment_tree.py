@@ -1,12 +1,14 @@
+import math
+
 class segment_node:
-    def __init__(self, left_child, right_child, parent, segment, value):
+    def __init__(self, left_child=None, right_child=None, parent=None, segment=None, value=0):
         self.left_child  = left_child
         self.right_child = right_child
         self.parent      = parent
         self.segment     = segment
         self.value       = value
 
-    def calculate_value (self, value):
+    def calculateValue (self, value):
         try:
             value = int(right_child.value)
         except:
@@ -20,16 +22,18 @@ class segment_node:
         except:
             pass
 
+    def getSum(self, left, right):
+        return 0
+
+
 class segment_tree:
 	def __init__(self, head_node=None, tree_size=0):
-		self.head_node = head_node
-		self.tree_size = tree_size
+	    self.head_node = head_node
+	    self.tree_size = tree_size
 	
-	def return_size(self):
-		return self.return_size
+	def returnSize(self):
+	    return self.return_size
+        
+        def returnHead(self):
+            return self.head_node
 
-
-N1 = segment_node(None , None , None , 'A', 0)
-
-
- 
